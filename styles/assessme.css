@@ -1,0 +1,114 @@
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   font-weight: 700;
+   color: blue;
+   font-size: large;
+ }
+
+ a:hover {
+   color: red;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+ }
+
+ .wrapper {
+    width: 90%;
+    max-width: 1200px;
+ }
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+ }
+
+ .navbar__logo {
+    width: 120px;
+ }
+
+ .ul_of_navbar {
+    display: flex;
+    gap: 30px;
+ }
+
+ .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .intro__left {
+    min-width: 300px;
+ }
+
+ .intro__title {
+    font-size: 60px;
+    font-weight: 500;
+    color: #003366;
+    margin-bottom: 20px;
+    line-height: 1.2;
+ }
+
+ .intro__text {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+ }
+
+ .intro__btn {
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: 100;
+    border-radius: 5px;
+    background-color: rgb(56, 56, 180);
+    border: none;
+ }
+
+ .intro_of_btn2 {
+    background-color: #003366;
+    color: rgb(238, 232, 232);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+ }
+
+ .intro__btn2 {
+    background-color: rgb(238, 232, 232);
+    color: #003366;
+    border-radius: 5px;
+    padding: 10px;
+ }
+
+ .intro__right {
+    text-align: center;
+    min-width: 300px;
+ }
+
+ .image_of_assess {
+    width: 100%;
+    max-width: 700px;
+ }
+
+ .text__assessme {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 110px;
+    font-weight: 800px;
+    color: rgba(0, 51, 102, 0.05);
+ }
