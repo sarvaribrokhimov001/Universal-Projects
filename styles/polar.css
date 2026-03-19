@@ -435,7 +435,6 @@ margin-left: 10px;
   height: 500px;
   margin: auto;
   background-color: #fff;
-  /* background-color: #000; */
 }
 
 .service1_title {
@@ -445,7 +444,7 @@ margin-left: 10px;
   line-height: 50px;
   text-align: center;  
   color: #000;
-  margin: 150px;/
+  margin: 150px;
 }
 
 .inputs {
@@ -540,7 +539,6 @@ margin-left: 10px;
 
 .cards {
     display: flex;
-    /* justify-content: space-evenly; */
     position: relative;
 }
 
